@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <title>New Year, New Blog</title>
+  <meta name="description" content="First post! It’s the start of a new year and I figured that I would create a new blog of all of my ramblings and projects. This is my first go with a static ...">
+
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="canonical" href="http://localhost:4000/blog/new-year-new-blog">
+
+  
+    
+
+
+
+
+
+  
+</head>
+
+  <body>
+    
+      <div id="body-container">
+        <div id="menu-overlay"></div>
+<div id="menu-container">
+    <div id="close-button"></div>
+    <div id="inner-menu-container">
+        <div id="search-container" class="loading hidden">
+            <div id="search-close-button" class="fa fa-arrow-left"></div>
+            <input 
+                onblur="if (this.value == '') {this.value = 'Search';}" 
+                onfocus="if (this.value == 'Search') {this.value = '';}" 
+                type="text" 
+                id="search-input" 
+                name="Search" 
+                value="Search" 
+                size="15" 
+                maxlength="128">
+
+            <div id="search-results"></div>
+        </div>
+        <ul id="menu-links">
+            <li><a href="/about" class="clearfix">About</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/tag/projects">Projects</a></li>
+            <li id="search-menu-button">Search</li>
+            <li class="minor-link" id="github"><a href="https://github.com/ianrogren">Github</a>
+            <li class="minor-link" id="linkedin"><a href="https://www.linkedin.com/in/ianrogren/">LinkedIn</a></li>
+        </ul>
+    </div>
+</div>
+        <div id="outter-container">
+          <header>
+  <nav id="nav-container" class="content">
+    
+    
+    <a class="logo" href="/">
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+        <div class="wave -four"></div>
+        <div class="wave -five"></div>
+
+    	<span class="v1">v</span>
+    	<span class="v2">v</span>
+    	<span class="a">a</span>
+    	<span class="v3">v</span>
+    	<span class="e">e</span>
+    	<span class="s">s</span>
+    </a>
+    <div id="nav-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+  </nav>
+</header>
+    	    <div id='main-content' class="content" aria-label="Content">
+    	        <article id="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div id="post-header">
+    <span>
+      
+        
+        <a href="/tag/projects">projects&nbsp;</a>
+      
+    </span>
+
+    <time datetime="2018-01-04T09:24:32-08:00" itemprop="datePublished">
+      
+      Jan 4, 2018
+    </time>
+
+    <h1 class="post-title" itemprop="name headline">New Year, New Blog</h1>
+
+    <p id="post-author">Ian Rogren</p>
+    <div id="social-share-icons">
+      <a class="facebook"></a>
+      <a class="google"></a>
+    </div>
+  </div>
+
+
+
+  <div class="post-content" itemprop="articleBody">
+    <p>First post! It’s the start of a new year and I figured that I would create a new blog of all of my ramblings and projects.  This is my first go with a static site generator, I’m overall impressed with using <a href="https://jekyllrb.com/">Jekyll</a>, especailly in combination <a href="https://pages.github.com/">GitHub pages</a>.  Keeping it short and sweet for now, I should have something more substantial than a first post soon.</p>
+
+
+  </div>
+
+  <div class="post-comments">
+    <div id="disqus_thread"></div>
+    <script>
+
+        var disqus_config = function () {
+
+            this.page.url = 'http://www.vavves.net/' + 'New Year, New Blog'.replace(' ', '-');  
+            this.page.identifier = 'New Year, New Blog'.replace(' ', '-'); 
+        };
+        
+        (function() {   
+            var d = document, s = d.createElement('script');
+            s.src = 'https://vvaves.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>       
+  </div>
+  
+</article>
+
+    	    </div>
+          <footer>
+
+	<div id="footer-inner-container">
+	    <div class="content">
+	        <div id="copy"><i class="fa fa-copyright" aria-hidden="true"></i> Ian Rogren</div>
+	    </div>
+	</div>
+
+    <script type="text/javascript" src="/assets/bundle.js" charset="utf-8"></script>
+</footer>
+
+        </div>
+      </div>
+    
+  </body>
+</html>
